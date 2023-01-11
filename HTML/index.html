@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="../CSS/css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple|mitosis">
+<link rel="icon" type="image/x-icon" href="../Resources/cyber-attack.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secret Chat Converter</title>
+</head>
+<body onpageshow="onPageInit()">
+
+<div class="hblock">
+    <p class="font-effect-outline">Input</p>
+    <div class="small-space"></div>
+    <div class="small-space"></div>
+    <div class="vblock"></div>
+    <p class="font-effect-outline">Output</p>
+</div>
+
+<div class="center">
+    <div class="console">
+        <textarea class="console-text" id="textArea-input" cols="60" rows="50"></textarea>
+    </div>
+    <div class="vblock"></div>
+    <div class="console"> 
+        <textarea readonly class="console-text" id="textArea-output" cols="60" rows="50"></textarea>      
+    </div>
+</div>
+<div class="hblock-small">
+    <div class="center">
+        <div class="roundButton" id="encode-btn">
+            <p class="text">
+                Encode
+            </p>
+        </div>
+        <div class="vblock"></div>
+        <div class="roundButton" id="decode-btn">
+            <p class="text">
+                Decode
+            </p>
+        </div>
+        <div class="small-space"></div>
+        <div class="small-space"></div>
+        <div class="small-space"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../JavaScript/encode.js"></script>
+<script type="text/javascript" src="../JavaScript/decode.js"></script>
+<script type="text/javascript" src="../JavaScript/functionality.js"></script>
+</body>
+</html>

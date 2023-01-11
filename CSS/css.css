@@ -1,0 +1,118 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.center {
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+
+div.hblock {
+    border: 0px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+div.hblock-small {
+    border: 0px solid;
+    padding: 20px;
+}
+
+div.vblock {
+    border: 0px solid;
+    padding: 15px;
+}
+
+div.roundButton {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px #ffffff;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.console-text {
+    background-color: black;
+    border-color: black;
+    color: white;
+    padding: auto;
+    height: 500px;
+    width: 99%;
+}
+
+.console-text:focus {
+    outline: none !important;
+    border: 0px solid red;
+    box-shadow: 0 0 0px #719ECE;
+}
+
+div.console {
+    float: left;
+    width: 20%;
+	padding: 10px 20px 10px 20px;
+    border: 2px solid rgb(118, 118, 118);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px 25px 5px 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+h2 {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+}
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+p {
+    float: left;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+a {
+    float: left;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+p.text {
+    float: left;
+    font-size: 15px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+div.small-space {
+    float: left;
+    padding: 0px 100px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+}
