@@ -17,7 +17,7 @@ function encodeLetter(k) {
 
     let key_index = alphabet.indexOf(key);
 
-    let rnd = getRandomInt(key_index);
+    let rnd = getRandomInt();
 
     while ((rnd + key_index) > 25) {
         rnd = getRandomInt();
